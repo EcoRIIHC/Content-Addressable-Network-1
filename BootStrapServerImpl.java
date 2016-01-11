@@ -6,14 +6,8 @@ import java.rmi.RemoteException;
 public class BootStrapServerImpl extends java.rmi.server.UnicastRemoteObject
 		implements BootStrapServer, Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private String bssIP;
-
-	// private static int port = 56546;
-
 	/**
 	 * 
 	 * @throws java.rmi.RemoteException
@@ -59,5 +53,4 @@ public class BootStrapServerImpl extends java.rmi.server.UnicastRemoteObject
 
 		System.out.println("bss bound to registry");
 	}
-
 }
