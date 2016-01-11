@@ -14,7 +14,6 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.Set;
 
-
 public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 		Peer, Serializable {
 
@@ -73,7 +72,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public double getX1() throws RemoteException {
-		// TODO Auto-generated method stub
 		return this.x1;
 	}
 
@@ -82,7 +80,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public double getX2() throws RemoteException {
-		// TODO Auto-generated method stub
 		return this.x2;
 	}
 
@@ -91,7 +88,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public double getY1() throws RemoteException {
-		// TODO Auto-generated method stub
 		return this.y1;
 	}
 
@@ -100,7 +96,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public double getY2() throws RemoteException {
-		// TODO Auto-generated method stub
 		return this.y2;
 	}
 
@@ -109,7 +104,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public void setX1(double x1) throws RemoteException {
-		// TODO Auto-generated method stub
 		this.x1 = x1;
 	}
 
@@ -118,7 +112,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public void setX2(double x2) throws RemoteException {
-		// TODO Auto-generated method stub
 		this.x2 = x2;
 	}
 
@@ -127,7 +120,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public void setY1(double y1) throws RemoteException {
-		// TODO Auto-generated method stub
 		this.y1 = y1;
 	}
 
@@ -136,7 +128,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public void setY2(double y2) throws RemoteException {
-		// TODO Auto-generated method stub
 		this.y2 = y2;
 	}
 
@@ -145,7 +136,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public String getIPAddress() throws RemoteException {
-		// TODO Auto-generated method stub
 		return this.ipAddress;
 	}
 
@@ -154,7 +144,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public void setIPAddress(String ipAddress) throws RemoteException {
-		// TODO Auto-generated method stub
 		this.ipAddress = ipAddress;
 	}
 
@@ -163,7 +152,6 @@ public class PeerImpl extends java.rmi.server.UnicastRemoteObject implements
 	 */
 	@Override
 	public void removeNeighbor(Neighbor neighbor) throws RemoteException {
-		// TODO Auto-generated method stub
 		this.neighbors.remove(neighbor);
 	}
 
