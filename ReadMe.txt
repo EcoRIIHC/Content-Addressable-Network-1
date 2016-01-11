@@ -10,10 +10,11 @@ The implementation covers:
 
 4. Peer join (with random x and y coordinates)
 
-5. Peer leave. Leave is only partially implemented. I wrote functions to find the neighbors of the peer that wishes to leave, where in the neighbor with the smallest area takes the area of the leaving peer, as mentioned in the paper. Furthermore, I iterate through all the neighbors of the peer that wishes to leave and remove the leaving peer from the neighbors' list that include this leaving peer.
+5. Peer leave is NOT attempted and the leave option simply  exits out of the code.
 
-To start the distributed system:
-1. javac *.java (on each system)
-2. rmiregistry & (on each system)
-3. java BootStrapServerImpl (runs on queeg.cs.rit.edu)
-4. java PeerImpl (runs on any server)
+Server
+The bootstrap server should contain the interface as well as the implementation of the interface i.e. BootStrapServer.java and BootStrapServerImpl.java.
+Client:
+The client should contain the Peer.java, PeerImpl.java and the Neighbor.java files
+
+To start the project, first run BootStrapServer.java file on the server machine and then run Peer.java on the client machines
