@@ -8,7 +8,6 @@ public interface BootStrapServer extends java.rmi.Remote {
 	 * @throws java.rmi.RemoteException
 	 */
 	public void setBSS(String ipAddress) throws java.rmi.RemoteException;
-
 	/**
 	 * Interface method to get the BootStrapping Server/Node *
 	 * 
